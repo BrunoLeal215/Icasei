@@ -1,0 +1,20 @@
+<h1>Rastreamento</h1>
+
+<table>
+<tr>
+<td><strong>Id</strong></td>
+<td><strong>GUID</strong></td>
+<td><strong>Url</strong></td>
+<td><strong>Data</strong></td>
+</tr>
+
+<% @trackings.each do |tracking| %>	
+<tr>
+<td><%=tracking.id %></td>
+<td><%=tracking.guid %></td>
+<td><%=tracking.url %></td>
+<td><%=tracking.data %></td>
+</tr>
+<% end -%>
+
+</table>

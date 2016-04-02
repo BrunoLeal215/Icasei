@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Icasei</title>
+  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= link_to 'HOME', root_path %>
+<%= link_to 'Contato', new_client_path %>
+<%= link_to 'Sobre', sobre_path %>
+<%= link_to 'Rastrear', rastrear_path %>
+
+<%= yield %>
+
+</body>
+</html>
