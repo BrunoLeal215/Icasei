@@ -1,15 +1,15 @@
 == README
 
-This is a test exercise from iCasei - O melhor Site de Casamento do Brasil
+This is a test exercise from iCasei - O melhor Site de Casamento do Brasil.
 
-Icasei exercice - 2016
+Icasei exercice - 2016.
 
 ===TECHNICAL SPECIFICATION
 
 This application was developed using:
-- Ruby on rails 2.1.6 (32bits);
+- Ruby on rails 2.1.6 (32bits).
 - Development Kit 2.0 and above.
-- Windows 7 Ultimate
+- Windows 7 Ultimate.
 
 ===INSTALLATION GUIDE
 
