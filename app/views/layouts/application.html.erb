@@ -7,11 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to 'HOME', root_path %>
+<center>
+<table width=70%><tr><td>
+<h2>
+<%= link_to 'Home', root_path %>
+ | 
 <%= link_to 'Contato', new_client_path %>
+ |
 <%= link_to 'Sobre', sobre_path %>
+ |
 <%= link_to 'Rastrear', rastrear_path %>
 
+</h2>
+</td></tr></table>
+</center>
 <%= yield %>
 
 </body>

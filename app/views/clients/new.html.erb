@@ -1,3 +1,5 @@
+<center>
+<table width=70%><tr><td>
 <h1>Novo Cliente </h1>
 
 <%= form_for @client do |f| -%>
@@ -11,11 +13,16 @@
 	<%= f.submit 'Salvar'%>
 <% end -%>
 
-<table>
+</td></tr></table>
+</center>
+<br>
+<center>
+<table width=70% border=1>
 <tr>
 <td><strong>ID</strong></td>
 <td><strong>Nome</strong></td>
 <td><strong>Email</strong></td>
+<td></td>
 </tr>
 
 <% @clients.each do |client| %>	
