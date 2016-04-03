@@ -1,7 +1,7 @@
 class TrackingController < ApplicationController
 
 	def index
-		@trackings = Tracking.order("data DESC").all
+		@trackings = Tracking.order("data DESC").limit(50)
 	end
 	
 	def create
