@@ -27,7 +27,7 @@ Step 4 - Execute the file DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe.
 			   create a new folder "devkit" in the C:\\Ruby21 directory. If the source folder was changed extract the file into a new devkit folder where 
 			   ruby was previously installed.
 
-Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master.zip into the C:\Ruby21 directory.
+Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master.zip into the C:\\Ruby21 directory.
 
 	Step 5.1 - Extract the file in the same folder. A new folder called Icasei-master should appear in the same directory.
 
@@ -35,13 +35,13 @@ Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master
 
 ===CONFIGURATION GUIDE
 
-Step 1 - Go to the C:\Ruby21\devkit directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
+Step 1 - Go to the C:\\Ruby21\\devkit directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
 
 Step 2 - On the prompt command window type: ruby dk.rb init and press enter, wait for it to finish.
 
 Step 3 - Type: ruby dk.rb install, wait for it to finish processing.
 
-Step 4 - Go to the C:\Ruby21\Icasei directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
+Step 4 - Go to the C:\\Ruby21\\Icasei directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
 
 Step 5 - On the prompt command window type: gem install bundler -v 1.9, wait for it to finish processing.
 
