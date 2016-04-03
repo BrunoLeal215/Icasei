@@ -4,14 +4,14 @@ This is a test exercise from iCasei - O melhor Site de Casamento do Brasil
 
 Icasei exercice - 2016
 
-=TECHNICAL SPECIFICATION
+===TECHNICAL SPECIFICATION
 
 This application was developed using:
 - Ruby on rails 2.1.6 (32bits);
 - Development Kit 2.0 and above.
 - Windows 7 Ultimate
 
-=INSTALLATION GUIDE
+===INSTALLATION GUIDE
 
 To run this application locally please follow the steps:
 
@@ -32,7 +32,7 @@ Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master
 
 	Step 5.2 - Rename the folder to Icasei.
 
-=CONFIGURATION GUIDE
+===CONFIGURATION GUIDE
 
 Step 1 - Go to the C:\Ruby21\devkit directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
 
@@ -52,7 +52,7 @@ Step 8 - Type: rails server
 
 Step 9 - Go to the browser and type localhost:3000, the page should open normally.
 
-=TEST GUIDE
+===TEST GUIDE
 
 Test 1 - Click on each link on the page to check if everything is openning correctly.
 
