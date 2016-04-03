@@ -12,15 +12,24 @@ This application was developed using:
 - Windows 7 Ultimate
 
 INSTALLATION GUIDE
+
 To run this application locally please follow the steps:
+
 Step 1 - Download the file http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.6.exe to you computer.
+
 Step 2 - Download the file http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe to you computer.
+
 Step 3 - Execute the file rubyinstaller-2.1.6.exe and follow the guide in the installation menu, keeping the default folder name.
+
 Step 4 - Execute the file DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+
 	Step 4.1 - The file must be extracted in the same folder where the rubyinstaller was installed, if the default source folder was kept 
 			   extract into C:\Ruby21\devkit. If the source folder was changed extract the file into a new devkit folder where ruby was installed previously.
+
 Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master.zip into the C:\Ruby21 directory.
+
 	Step 5.1 - Extract the file in the same folder. A new folder called Icasei-master should appear in the same directory.
+
 	Step 5.2 - Rename the folder to Icasei.
 
 CONFIGURATION GUIDE
