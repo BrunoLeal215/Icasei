@@ -2,7 +2,7 @@
 
 This is a test exercise for iCasei - O melhor Site de Casamento do Brasil.
 
-Icasei exercice - 2016.
+Icasei exercise - 2016.
 
 ===TECHNICAL SPECIFICATION
 
