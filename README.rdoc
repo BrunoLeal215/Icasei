@@ -1,6 +1,6 @@
 == README
 
-This is a test exercise from iCasei - O melhor Site de Casamento do Brasil.
+This is a test exercise for iCasei - O melhor Site de Casamento do Brasil.
 
 Icasei exercice - 2016.
 
