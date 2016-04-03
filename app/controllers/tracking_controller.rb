@@ -1,7 +1,7 @@
 class TrackingController < ApplicationController
 
 	def index
-		@trackings = Tracking.all
+		@trackings = Tracking.order("data DESC").all
 	end
 	
 	def create

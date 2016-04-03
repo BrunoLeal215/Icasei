@@ -1,28 +1,42 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a test exercise from iCasei - O melhor Site de Casamento do Brasil
 
-Things you may want to cover:
+Icasei exercice - 2016
 
-* Ruby version
+TECHNICAL SPECIFICATION
+This application was developed using:
+- Ruby on rails 2.1.6 (32bits);
+- Development Kit 2.0 and above.
+- Windows 7 Ultimate
 
-* System dependencies
+INSTALLATION GUIDE
+To run this application locally please follow the steps:
+Step 1 - Download the file http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.6.exe to you computer.
+Step 2 - Download the file http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe to you computer.
+Step 3 - Execute the file rubyinstaller-2.1.6.exe and follow the guide in the installation menu, keeping the default folder name.
+Step 4 - Execute the file DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+	Step 4.1 - The file must be extracted in the same folder where the rubyinstaller was installed, if the default source folder was kept 
+			   extract into C:\Ruby21\devkit. If the source folder was changed extract the file into a new devkit folder where ruby was installed previously.
+Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master.zip into the C:\Ruby21 directory.
+	Step 5.1 - Extract the file in the same folder. A new folder called Icasei-master should appear in the same directory.
+	Step 5.2 - Rename the folder to Icasei.
 
-* Configuration
+CONFIGURATION GUIDE
+Step 1 - Go to the C:\Ruby21\devkit directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
+Step 2 - On the prompt command window type: ruby dk.rb init and press enter, wait for it to finish.
+Step 3 - Type: ruby dk.rb install, wait for it to finish processing.
+Step 4 - Go to the C:\Ruby21\Icasei directory and holding shift, right click on a empty space in the folder and select "open prompt command window here".
+Step 5 - On the prompt command window type: gem install bundler -v 1.9, wait for it to finish processing.
+Step 6 - Type: bundle install, wait for it to finish processing, it takes a little longer than the other ones.
+Step 7 - Type: rake db:migrate, wait for it to finish creating the database.
+Step 8 - Type: rails server
+Step 9 - Go to the browser and type localhost:3000, the page should open normally.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+TEST GUIDE
+Test 1 - Click on each link on the page to check if everything is openning correctly.
+Test 2 - Click on the "rastrear" link and check if the items in the list tracked your actions so far.
+Test 3 - Include new client to the database, click on "Contato" or "Cadastrar novo cliente" on the home page, to open the client's page.
+	Test 3.1 - Fill the form and click "Salvar".
+	Test 3.2 - Check if the information in the table below are correct.
+	Test 3.3 - Click on "Detalhes" to test the details page.
