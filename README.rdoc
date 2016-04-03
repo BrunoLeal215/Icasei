@@ -21,10 +21,10 @@ Step 2 - Download the file http://dl.bintray.com/oneclick/rubyinstaller/DevKit-m
 
 Step 3 - Execute the file rubyinstaller-2.1.6.exe and follow the guide in the installation menu, keeping the default configuration.
 
-Step 4 - Execute the file DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+Step 4 - Execute the file DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe.
 
-	Step 4.1 - The file must be extracted in the same folder where the rubyinstaller was installed, if the default installation folder was maintained, 
-			   create a new folder "devkit" in the C:\Ruby21 directory. If the source folder was changed extract the file into a new devkit folder where 
+	Step 4.1 - The file must be extracted into the same folder where the rubyinstaller was installed, if the default installation folder was maintained, 
+			   create a new folder "devkit" in the \C:\Ruby21 directory\. If the source folder was changed extract the file into a new devkit folder where 
 			   ruby was previously installed.
 
 Step 5 - Download the file https://github.com/BrunoLeal215/Icasei/archive/master.zip into the C:\Ruby21 directory.
