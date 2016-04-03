@@ -5,6 +5,7 @@ This is a test exercise from iCasei - O melhor Site de Casamento do Brasil
 Icasei exercice - 2016
 
 TECHNICAL SPECIFICATION
+
 This application was developed using:
 - Ruby on rails 2.1.6 (32bits);
 - Development Kit 2.0 and above.
