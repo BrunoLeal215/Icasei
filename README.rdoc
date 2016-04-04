@@ -53,16 +53,3 @@ Step 8 - Type: rails server, wait 1 minute for it to start the server.
 
 Step 9 - Go to the browser and type localhost:3000, the page should open normally.
 
-===TEST GUIDE
-
-Test 1 - Click on each link on the page to check if everything is openning correctly.
-
-Test 2 - Click on the "rastrear" link and check if the items in the list tracked your actions so far.
-
-Test 3 - Include new client to the database, click on "Contato" or "Cadastrar novo cliente" on the home page, to open the client's page.
-
-	Test 3.1 - Fill the form and click "Salvar".
-
-	Test 3.2 - Check if the information in the table below are correct.
-
-	Test 3.3 - Click on "Detalhes" to test the details page.
